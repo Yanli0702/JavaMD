@@ -36,13 +36,11 @@
 
 #### 字符串常量池位置：jdk6在永久代中，
 
-![contents](https://github.com/Yanli0702/JavaMD/raw/master/StringTable.assets/image-20220706102234701.png)
-
-![img1](String Table.assets/image-20220706102140455.png)
+![contents](https://github.com/Yanli0702/JavaMD/raw/master/StringTable.assets/image-20220706102140455.png)
 
 #### jdk7在Java堆内
 
-![image-20220706102234701](D:\下载\Desktop\JavaMD\String Table.assets\image-20220706102234701.png)
+![contents](https://github.com/Yanli0702/JavaMD/raw/master/StringTable.assets/image-20220706102234701.png)
 
 #### jdk8元空间取代永久代，使用的是JVM外的内存，StringTable仍然在堆
 
@@ -110,31 +108,27 @@
 
 ###### 代码
 
-![image-20220706231350119](D:\下载\Desktop\JavaMD\String Table.assets\image-20220706231350119.png)
+![contents](https://github.com/Yanli0702/JavaMD/raw/master/StringTable.assets/image-20220706231350119.png)
 
 ###### 图示
 
 jdk7
 
-![image-20220706231715065](D:\下载\Desktop\JavaMD\String Table.assets\image-20220706231715065.png)
+![contents](https://github.com/Yanli0702/JavaMD/raw/master/StringTable.assets/image-20220706231715065.png)
 
 jdk6
 
-![image-20220706231850132](D:\下载\Desktop\JavaMD\String Table.assets\image-20220706231850132.png)
+![contents](https://github.com/Yanli0702/JavaMD/raw/master/StringTable.assets/image-20220706231850132.png)
 
 ######  总结
 
-![image-20220707001128635](D:\下载\Desktop\JavaMD\String Table.assets\image-20220707001128635.png)
-
-
+![contents](https://github.com/Yanli0702/JavaMD/raw/master/StringTable.assets/image-20220707001128635.png)
 
 ###### 对于程序中大量存在的字符串，尤其其中存在很多重复字符串时，使用intern()能大大节省空间
 
 大的网站平台，很多人都存储重复信息，如地址等，用intern()可大大节省空间
 
 #### G1中的String去重操作
-
-
 
 
 
