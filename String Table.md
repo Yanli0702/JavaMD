@@ -36,7 +36,7 @@
 
 #### 字符串常量池位置：jdk6在永久代中，
 
-![image-20220706102140455](D:\下载\Desktop\JavaMD\String Table.assets\image-20220706102140455.png)
+http://1.15.150.183:2333/images/2022/07/17/ZlehR3uS4duP6SBf.png
 
 #### jdk7在Java堆内
 
